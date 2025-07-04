@@ -77,15 +77,13 @@ tsconfig*.json    # TypeScript configs
 
 - Semantic HTML5 markup
 - Flexbox
-- Media Queries
 - [Vite](https://vite.dev/) - Module Bundler
 - [React + Typescript](https://reactjs.org/)
 
 ### What I learned
 
-- More about media queries
-- **Variable Font** and using it locally
-- Working with **Figma** design
+- HTML structuring
+- Accessibility
 
 ### Continued development
 
