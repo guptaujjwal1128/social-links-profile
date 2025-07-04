@@ -1,0 +1,157 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input,
+label {
+  line-height: 1.1;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+:root {
+  --breakpoint-mobile: 375px;
+  --breakoint-desktop: 1440px;
+  --color-white: hsl(0, 0%, 100%);
+  --color-green: hsl(75, 94%, 57%);
+  --color-gray-700: hsl(0, 0%, 20%);
+  --color-gray-800: hsl(0, 0%, 12%);
+  --color-gray-900: hsl(0, 0%, 8%);
+  --font-size-primary: 1.5rem;
+  --font-size-secondary: 0.875rem;
+  --font-family-base: "Inter", sans-serif;
+  --font-weight-normal: 400;
+  --font-weight-bold: 600;
+  --font-weight-bolder: 700;
+  --spacing-200: 1.5rem;
+  --spacing-150: 1.5rem;
+  --spacing-100: 1rem;
+  --spacing-50: 0.5rem;
+}
+@font-face {
+  font-family: Inter;
+  src: url(/social-links-profile/assets/Inter-VariableFont_slnt_wght-Cl4AQHp9.ttf)
+    format("truetype");
+  font-weight: 400 700;
+  font-display: swap;
+}
+body {
+  font-family: var(--font-family-base);
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--color-gray-900);
+}
+.card {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-150);
+  padding: var(--spacing-150);
+  background-color: var(--color-gray-800);
+  border-radius: 20px;
+}
+.card-avatar-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-200);
+}
+.card-avatar-img {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.card-avatar-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-50);
+}
+.card-avatar-details-name {
+  font-size: var(--font-size-primary);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
+  text-align: center;
+}
+.card-avatar-details-location {
+  font-size: var(--font-size-secondary);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-green);
+  text-align: center;
+}
+.card-avatar-description {
+  font-size: var(--font-size-secondary);
+  font-weight: var(--font-weight-normal);
+  color: var(--color-white);
+  text-align: center;
+}
+.card-avatar-social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: var(--spacing-100);
+  text-align: center;
+  font-size: var(--font-size-secondary);
+  font-weight: var(--font-weight-bolder);
+  color: var(--color-white);
+}
+.social-link {
+  width: 100%;
+  padding: var(--spacing-50);
+  color: var(--color-white);
+  background-color: var(--color-gray-700);
+  font-size: var(--font-size-secondary);
+  font-weight: var(--font-weight-bolder);
+  border-radius: 10px;
+  text-decoration: none;
+}
+.social-link:hover {
+  background-color: var(--color-green);
+  color: var(--color-gray-900);
+}

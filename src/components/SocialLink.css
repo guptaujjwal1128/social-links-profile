@@ -1,0 +1,15 @@
+.social-link {
+  width: 100%;
+  padding: var(--spacing-50);
+  color: var(--color-white);
+  background-color: var(--color-gray-700);
+  font-size: var(--font-size-secondary);
+  font-weight: var(--font-weight-bolder);
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  background-color: var(--color-green);
+  color: var(--color-gray-900);
+}

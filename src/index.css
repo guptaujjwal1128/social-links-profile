@@ -7,43 +7,33 @@
 
   /* Colors */
   --color-white: hsl(0, 0%, 100%);
-  --color-yellow: hsl(47, 88%, 63%);
-  --color-gray-950: hsl(0, 0%, 7%);
-  --color-gray-500: hsl(0, 0%, 42%);
+  --color-green: hsl(75, 94%, 57%);
+  --color-gray-700: hsl(0, 0%, 20%);
+  --color-gray-800: hsl(0, 0%, 12%);
+  --color-gray-900: hsl(0, 0%, 8%);
 
   /* Fonts */
   --font-size-primary: 1.5rem;
-  --font-size-secondary: 1rem;
-  --font-size-tertiary: .875rem;
-  --font-size-primary-sm: 1.25rem;
-  --font-size-secondary-sm: .875rem;
-  --font-size-tertiary-sm: .75rem;
-  --font-family-base: "Figtree", sans-serif;
-  --font-weight-normal: 500;
-  --font-weight-bold: 800;
+  --font-size-secondary: 0.875rem;
+  --font-family-base: "Inter", sans-serif;
+  --font-weight-normal: 400;
+  --font-weight-bold: 600;
+  --font-weight-bolder: 700;
 
   /* Spacing */
   --spacing-200: 1.5rem;
-  --spacing-150: .75rem;
-  --spacing-100: .5rem;
-  --spacing-50: .25rem;
+  --spacing-150: 1.5rem;
+  --spacing-100: 1rem;
+  --spacing-50: 0.5rem;
 }
 
 @font-face {
-  font-family: 'Figtree';
-  src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
-  font-weight: 500 800; /* Defines variable range */
-  font-display: swap;;
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+  font-weight: 400 700; /* Defines variable range */
+  font-display: swap;
 }
 
 body {
   font-family: var(--font-family-base);
-}
-
-#root {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background-color: var(--color-yellow);
 }
